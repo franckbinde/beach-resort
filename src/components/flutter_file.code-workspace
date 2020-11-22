@@ -1,0 +1,8 @@
+{
+  "folders": [],
+  "settings": {
+    "prettier.printWidth": 85,
+    "liveServer.settings.multiRootWorkspaceName": "starter",
+    "editor.formatOnSave": true
+  }
+}

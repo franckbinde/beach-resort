@@ -6,24 +6,28 @@ export default class Services extends Component {
   state = {
     services: [
       {
-        icon: <FaCocktail />,
+        icon: <FaCocktail color="purple" />,
         title: "free cocktails",
-        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ex!"
+        info:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ex!"
       },
       {
-        icon: <FaHiking />,
+        icon: <FaHiking color="green" />,
         title: "Endless Hiking",
-        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ex!"
+        info:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ex!"
       },
       {
-        icon: <FaShuttleVan />,
+        icon: <FaShuttleVan color="yellow" />,
         title: "Free shuttle",
-        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ex!"
+        info:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ex!"
       },
       {
-        icon: <FaBeer />,
+        icon: <FaBeer color="orange" />,
         title: "Strongest Beer",
-        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ex!"
+        info:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ex!"
       }
     ]
   };

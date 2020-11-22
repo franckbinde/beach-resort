@@ -233,8 +233,17 @@ h6 {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  /* background: var(--darkGrey); */
+  background: rgb(39, 31, 177);
+  background: linear-gradient(
+    90deg,
+    rgba(39, 31, 177, 1) 0%,
+    rgba(5, 26, 37, 1) 100%,
+    rgba(232, 11, 134, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   text-align: center;
+  color: #fff;
 }
 .services-center {
   width: 90vw;
